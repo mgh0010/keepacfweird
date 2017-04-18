@@ -84,6 +84,7 @@ define('WP_DEBUG', false);
 $_SERVER["HTTP_HOST"] = $_SERVER["SERVER_NAME"];
 $_SERVER["HTTP_HOST"] = $_SERVER["SERVER_NAME"];
 
+define('WP_ALLOW_REPAIR', true);
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
